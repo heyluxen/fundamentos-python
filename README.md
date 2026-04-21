@@ -143,24 +143,237 @@ También se utilizaron paréntesis para controlar el orden de ejecución.
 
 Ejercicios: 
 
-Código implementado:
-print("Ejercicio 1:", 5 + 3 * 2)
-print("Ejercicio 2:", 8 / 2 + 4 * 3)
-print("Ejercicio 3:", (7 + 3) * 2 - 5)
-print("Ejercicio 4:", 10 - 4 + 2 * 3)
-print("Ejercicio 5:", (10 / 2) * (3 + 2) - 4)
-print("Ejercicio 6:", 2 + 3 * (4 - 1))
-print("Ejercicio 7:", 5 * 2 ** 3)
-print("Ejercicio 8:", 6 + 4 / 2 ** 2)
-print("Ejercicio 9:", 10 % 3 + 2 * 5)
-print("Ejercicio 10:", (8 + 2) * 3 ** 2)
-print("Ejercicio 11:", 7 + 2 * (3 + 5) / 4)
-print("Ejercicio 12:", 2 ** 3 * 4 / 2)
-print("Ejercicio 13:", 9 - 6 + 3 ** 2)
-print("Ejercicio 14:", (7 - 2) * 5 + 3 ** 2)
-print("Ejercicio 15:", 4 * 2 ** 3 / 8 + 1)
+Ejercicio 1:
 
-Resultados obtenidos:
+Expresión:
+5 + 3 * 2
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación:
+
+Multiplicación primero:
+3 * 2 = 6
+Suma:
+5 + 6 = 11
+
+Resultado final:
+11
+
+Ejercicio 2:
+
+Expresión:
+8 / 2 + 4 * 3
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación:
+8 / 2 = 4.0
+4 * 3 = 12
+4.0 + 12 = 16.0
+
+Resultado:
+16.0
+
+Ejercicio 3:
+
+Expresión:
+(7 + 3) * 2 - 5
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación:
+7 + 3 = 10
+10 * 2 = 20
+20 - 5 = 15
+
+Resultado:
+15
+
+Ejercicio 4:
+
+Expresión:
+10 - 4 + 2 * 3
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación:
+2 * 3 = 6
+10 - 4 = 6
+6 + 6 = 12
+
+Resultado:
+12
+
+Ejercicio 5:
+
+Expresión:
+(10 / 2) * (3 + 2) - 4
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación:
+10 / 2 = 5.0
+3 + 2 = 5
+5.0 * 5 = 25.0
+25.0 - 4 = 21.0
+
+Resultado:
+21.0
+
+Ejercicio 6:
+
+Expresión:
+2 + 3 * (4 - 1)
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación:
+4 - 1 = 3
+3 * 3 = 9
+2 + 9 = 11
+
+Resultado:
+11
+
+Ejercicio 7:
+
+Expresión:
+5 * 2 ** 3
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación:
+2 ** 3 = 8
+5 * 8 = 40
+
+Resultado:
+40
+
+Ejercicio 8:
+
+Expresión:
+6 + 4 / 2 ** 2
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación:
+2 ** 2 = 4
+4 / 4 = 1.0
+6 + 1.0 = 7.0
+
+Resultado:
+7.0
+
+Ejercicio 9:
+
+Expresión:
+10 % 3 + 2 * 5
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación
+10 % 3 = 1
+2 * 5 = 10
+1 + 10 = 11
+
+Resultado:
+11
+
+Ejercicio 10:
+
+Expresión:
+(8 + 2) * 3 ** 2
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación
+8 + 2 = 10
+3 ** 2 = 9
+10 * 9 = 90
+
+Resultado:
+90
+
+Ejercicio 11:
+
+Expresión:
+7 + 2 * (3 + 5) / 4
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación
+3 + 5 = 8
+2 * 8 = 16
+16 / 4 = 4.0
+7 + 4.0 = 11.0
+
+Resultado:
+11.0
+
+Ejercicio 12:
+
+Expresión:
+2 ** 3 * 4 / 2
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación:
+2 ** 3 = 8
+8 * 4 = 32
+32 / 2 = 16.0
+
+Resultado:
+16.0
+
+Ejercicio 13:
+
+Expresión:
+9 - 6 + 3 ** 2
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación
+3 ** 2 = 9
+9 - 6 = 3
+3 + 9 = 12
+
+Resultado:
+12
+
+Ejercicio 14:
+
+Expresión:
+(7 - 2) * 5 + 3 ** 2
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación:
+7 - 2 = 5
+3 ** 2 = 9
+5 * 5 = 25
+25 + 9 = 34
+
+Resultado:
+34
+
+Ejercicio 15:
+
+Expresión:
+4 * 2 ** 3 / 8 + 1
+
+Pregunta: ¿Cuál es el resultado? ¿Por qué?
+
+Solución y Explicación:
+2 ** 3 = 8
+4 * 8 = 32
+32 / 8 = 4.0
+4.0 + 1 = 5.0
+
+Resultado:
+5.0
+
+Salida de consola:
 Ejercicio 1: 11
 Ejercicio 2: 16.0
 Ejercicio 3: 15
@@ -176,3 +389,56 @@ Ejercicio 12: 16.0
 Ejercicio 13: 12
 Ejercicio 14: 34
 Ejercicio 15: 5.0
+
+Sección 4 - Variables
+
+Descripción:
+
+En esta sección se introduce el concepto de variables en Python, las cuales funcionan como “cajas” que permiten almacenar datos para ser utilizados posteriormente en un programa.
+
+Las variables son fundamentales en la programación, ya que permiten guardar resultados intermedios, reutilizar información y construir lógica más compleja.
+
+Laboratorio 1 - Variables: un convertidor simple
+
+Descripción:
+
+En este laboratorio se desarrolla un programa en Python que permite convertir unidades de distancia entre millas y kilómetros.
+
+Se utiliza la relación:
+
+1 milla ≈ 1.61 kilómetros
+
+El objetivo es practicar el uso de variables, operadores aritméticos y la función print() para mostrar resultados.
+
+Objetivos:
+Comprender cómo usar variables.
+Aplicar operaciones matemáticas básicas.
+Aprender a mostrar resultados con print().
+Utilizar la función round() para redondear valores.
+
+Lógica del programa:
+
+Se definen dos variables:
+miles
+kilometers
+
+Se realizan las conversiones:
+
+Millas a kilómetros → miles * 1.61
+Kilómetros a millas → kilometers / 1.61
+
+Se imprimen los resultados redondeados a 2 decimales.
+
+Código:
+kilometers = 12.25
+miles = 7.38
+
+miles_to_kilometers = miles * 1.61
+kilometers_to_miles = kilometers / 1.61
+
+print(miles, "millas son", round(miles_to_kilometers, 2), "kilómetros")
+print(kilometers, "kilómetros son", round(kilometers_to_miles, 2), "millas")
+
+Salida:
+7.38 millas son 11.88 kilómetros
+12.25 kilómetros son 7.61 millas
