@@ -58,3 +58,35 @@ end="..." → evita salto de línea
 
 Ejemplo de salida:
 Programming***Essentials***in...Python
+
+Laboratorio 3: Formato de salida
+
+Código:
+
+print("    *    "*2)
+print("   * *   "*2)
+print("  *   *  "*2)
+print(" *     * "*2)
+print("***   ***"*2)
+print("  *   *  "*2)
+print("  *   *  "*2)
+print("  *****  "*2)
+
+Explicación:
+
+Se trabajó con:
+
+Formato visual en consola
+Uso de multiplicación de cadenas (*)
+Organización del texto para generar figuras
+
+Ejemplo de salida:
+
+    *        *    
+   * *      * *   
+  *   *    *   *  
+ *     *  *     * 
+***   ******   ***
+  *   *    *   *  
+  *   *    *   *  
+  *****    *****  
