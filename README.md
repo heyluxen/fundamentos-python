@@ -59,7 +59,7 @@ end="..." → evita salto de línea
 Ejemplo de salida:
 Programming***Essentials***in...Python
 
-Laboratorio 3: Formato de salida
+Laboratorio 3: Dando formato a la salida
 
 Código:
 
@@ -90,3 +90,37 @@ Ejemplo de salida:
   *   *    *   *  
   *   *    *   *  
   *****    *****  
+
+Sección 2 - Literales de python - Cadenas
+
+Descripción:
+
+En esta sesión se trabajó con los literales de Python, los cuales representan valores fijos que se escriben directamente en el código.
+
+Se estudiaron los principales tipos de datos:
+
+Números enteros (int)
+Números flotantes (float)
+Cadenas de texto (str)
+Valores booleanos (bool)
+
+Lógica utilizada:
+
+La lógica principal consiste en entender que los literales permiten representar datos directamente en el programa sin necesidad de cálculos previos.
+
+Laboratorio: Literales de Python – Cadenas
+
+Código:
+print("\"Estoy\"\"\"aprendiendo\"\"\"\"\"Python\"\"\"")
+
+Explicación:
+
+En este laboratorio se utilizó una sola instrucción print() para generar una salida específica que incluye múltiples comillas.
+
+Para lograrlo se emplearon:
+
+Caracteres de escape (\") para imprimir comillas dentro de la cadena
+Una estructura de cadena cuidadosamente construida para respetar el formato solicitado
+
+Ejemplo de salida:
+"Estoy"""aprendiendo"""""Python"""
