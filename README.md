@@ -42,3 +42,19 @@ También se identificaron errores comunes al modificar la sintaxis.
 Ejemplo de salida:
 ¡Hola, Mundo!
 Valentina
+
+Laboratorio 2: La función print() y sus argumentos
+
+Código:
+print("Programming", "Essentials", "in", sep="***", end="...")
+print("Python")
+
+Explicación:
+
+Se utilizaron argumentos de palabra clave para modificar el formato de salida:
+
+sep="***" → separa palabras
+end="..." → evita salto de línea
+
+Ejemplo de salida:
+Programming***Essentials***in...Python
