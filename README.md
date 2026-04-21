@@ -115,7 +115,7 @@ print("\"Estoy\"\"\"aprendiendo\"\"\"\"\"Python\"\"\"")
 
 Explicación:
 
-En este laboratorio se utilizó una sola instrucción print() para generar una salida específica que incluye múltiples comillas.
+En este laboratorio se utilizó una sola instrucción print() para generar una salida específica que incluye múltiples comillas
 
 Para lograrlo se emplearon:
 
@@ -124,3 +124,55 @@ Una estructura de cadena cuidadosamente construida para respetar el formato soli
 
 Ejemplo de salida:
 "Estoy"""aprendiendo"""""Python"""
+
+Sección 3 - Operadores - herramientas de manipulación de datos
+
+Descripción
+
+En esta sección se trabajó con operadores matemáticos en Python, utilizando el lenguaje como una herramienta para evaluar expresiones aritméticas. Se resolvieron ejercicios aplicando la jerarquía de operadores y posteriormente se verificaron los resultados con código.
+
+Lógica utilizada
+
+Se aplicó la jerarquía de operaciones en Python:
+
+Potencias **
+Multiplicación, división, división entera y módulo * / // %
+Suma y resta + -
+
+También se utilizaron paréntesis para controlar el orden de ejecución.
+
+Ejercicios: 
+
+Código implementado:
+print("Ejercicio 1:", 5 + 3 * 2)
+print("Ejercicio 2:", 8 / 2 + 4 * 3)
+print("Ejercicio 3:", (7 + 3) * 2 - 5)
+print("Ejercicio 4:", 10 - 4 + 2 * 3)
+print("Ejercicio 5:", (10 / 2) * (3 + 2) - 4)
+print("Ejercicio 6:", 2 + 3 * (4 - 1))
+print("Ejercicio 7:", 5 * 2 ** 3)
+print("Ejercicio 8:", 6 + 4 / 2 ** 2)
+print("Ejercicio 9:", 10 % 3 + 2 * 5)
+print("Ejercicio 10:", (8 + 2) * 3 ** 2)
+print("Ejercicio 11:", 7 + 2 * (3 + 5) / 4)
+print("Ejercicio 12:", 2 ** 3 * 4 / 2)
+print("Ejercicio 13:", 9 - 6 + 3 ** 2)
+print("Ejercicio 14:", (7 - 2) * 5 + 3 ** 2)
+print("Ejercicio 15:", 4 * 2 ** 3 / 8 + 1)
+
+Resultados obtenidos:
+Ejercicio 1: 11
+Ejercicio 2: 16.0
+Ejercicio 3: 15
+Ejercicio 4: 12
+Ejercicio 5: 21.0
+Ejercicio 6: 11
+Ejercicio 7: 40
+Ejercicio 8: 7.0
+Ejercicio 9: 11
+Ejercicio 10: 90
+Ejercicio 11: 11.0
+Ejercicio 12: 16.0
+Ejercicio 13: 12
+Ejercicio 14: 34
+Ejercicio 15: 5.0
