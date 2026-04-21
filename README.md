@@ -442,3 +442,44 @@ print(kilometers, "kilómetros son", round(kilometers_to_miles, 2), "millas")
 Salida:
 7.38 millas son 11.88 kilómetros
 12.25 kilómetros son 7.61 millas
+
+LAboratorio 2 – Operadores y expresiones
+Descripción:
+
+En este laboratorio se desarrolla un programa en Python que evalúa una expresión matemática algebraica, utilizando variables y operadores.
+
+La expresión a resolver es:
+
+3x3−2x2+3x−1
+
+El objetivo es practicar el uso de operadores aritméticos, variables y el manejo de datos tipo float.
+
+Lógica del programa:
+Se define una variable x.
+Se convierte a tipo float.
+Se traduce la expresión matemática a Python usando:
+* para multiplicación
+** para potencias
+Se calcula el resultado y se guarda en y.
+Se imprime el resultado.
+
+Código:
+x = 1 
+x = float(x)
+
+y = 3 * x**3 - 2 * x**2 + 3 * x - 1
+
+print("y =", y)
+
+Salida:
+y = 3.0
+
+
+Explicación:
+La expresión algebraica se escribe en Python respetando el orden de operaciones:
+
+Primero potencias (**)
+Luego multiplicaciones (*)
+Finalmente sumas y restas (+, -)
+
+Python evalúa la expresión y guarda el resultado en la variable y.
