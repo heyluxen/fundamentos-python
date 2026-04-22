@@ -443,7 +443,8 @@ Salida:
 7.38 millas son 11.88 kilómetros
 12.25 kilómetros son 7.61 millas
 
-LAboratorio 2 – Operadores y expresiones
+Laboratorio 2 – Operadores y expresiones
+
 Descripción:
 
 En este laboratorio se desarrolla un programa en Python que evalúa una expresión matemática algebraica, utilizando variables y operadores.
@@ -464,6 +465,7 @@ Se calcula el resultado y se guarda en y.
 Se imprime el resultado.
 
 Código:
+
 x = 1 
 x = float(x)
 
@@ -472,8 +474,8 @@ y = 3 * x**3 - 2 * x**2 + 3 * x - 1
 print("y =", y)
 
 Salida:
-y = 3.0
 
+y = 3.0
 
 Explicación:
 La expresión algebraica se escribe en Python respetando el orden de operaciones:
@@ -483,3 +485,213 @@ Luego multiplicaciones (*)
 Finalmente sumas y restas (+, -)
 
 Python evalúa la expresión y guarda el resultado en la variable y.
+
+Laboratorio 3 - Ejercicios
+
+Descripción:
+En este laboratorio se desarrollan 15 ejercicios aplicando operadores matemáticos en Python dentro de un contexto de videojuego (gameplay).
+
+Cada ejercicio utiliza variables y operaciones para resolver problemas como puntajes, tiempos, porcentajes y promedios.
+
+Ejercicios: 
+
+1. Puntaje total
+nivel1 = 100
+nivel2 = 200
+nivel3 = 150
+
+total = nivel1 + nivel2 + nivel3
+print("Puntaje total:", total)
+
+Salida:
+Puntaje total: 450
+
+Lógica: Se suman los puntos de los tres niveles.
+
+2. Tiempo total en segundos
+horas = 1
+minutos = 30
+segundos = 20
+
+total_segundos = horas * 3600 + minutos * 60 + segundos
+print("Tiempo total:", total_segundos)
+
+Salida:
+Tiempo total: 5420
+
+Lógica: Se convierten horas y minutos a segundos y luego se suman.
+
+3. Daño total
+ataque1 = 50
+ataque2 = 70
+ataque3 = 30
+
+danio_total = ataque1 + ataque2 + ataque3
+print("Daño total:", danio_total)
+
+Salida:
+Daño total: 150
+
+Lógica: Se suman los daños de los ataques.
+
+4. Experiencia total
+mision1 = 100
+mision2 = 200
+mision3 = 150
+
+experiencia = mision1 + mision2 + mision3
+print("Experiencia total:", experiencia)
+
+Salida:
+Experiencia total: 450
+
+Lógica: Se suman las recompensas de experiencia.
+
+5. Porcentaje de vida
+vida_max = 100
+vida_actual = 75
+
+porcentaje = (vida_actual / vida_max) * 100
+print("Vida restante:", porcentaje, "%")
+
+Salida:
+Vida restante: 75.0 %
+
+Lógica: Se calcula el porcentaje de vida actual respecto a la máxima.
+
+6. Oro total
+oro1 = 50
+oro2 = 75
+oro3 = 25
+
+total_oro = oro1 + oro2 + oro3
+print("Oro total:", total_oro)
+
+Salida:
+Oro total: 150
+
+Lógica: Se suman las cantidades de oro.
+
+7. Velocidad promedio
+distancia = 100
+tiempo = 2
+
+velocidad = distancia / tiempo
+print("Velocidad promedio:", velocidad)
+
+Salida:
+Velocidad promedio: 50.0
+
+Lógica: Se divide la distancia entre el tiempo.
+
+8. Costo total de mejoras
+mejora1 = 200
+mejora2 = 300
+mejora3 = 150
+
+costo_total = mejora1 + mejora2 + mejora3
+print("Costo total:", costo_total)
+
+Salida:
+Costo total: 650
+
+Lógica: Se suman los costos de las mejoras.
+
+9. Tiempo restante
+tiempo_total = 120
+tiempo_transcurrido = 45
+
+restante = tiempo_total - tiempo_transcurrido
+print("Tiempo restante:", restante)
+
+Salida:
+Tiempo restante: 75
+
+Lógica: Se resta el tiempo transcurrido al total.
+
+10.  Nivel promedio
+jugador1 = 10
+jugador2 = 20
+jugador3 = 30
+
+promedio = (jugador1 + jugador2 + jugador3) / 3
+print("Nivel promedio:", promedio)
+
+Salida:
+Nivel promedio: 20.0
+
+Lógica: Se calcula el promedio sumando y dividiendo entre 3.
+
+11.  Daño crítico
+danio_base = 100
+multiplicador = 2
+
+danio_critico = danio_base * multiplicador
+print("Daño crítico:", danio_critico)
+
+Salida:
+Daño crítico: 200
+
+Lógica: Se multiplica el daño base por el multiplicador.
+
+12. Tiempo en horas y minutos
+minutos_totales = 130
+
+horas = minutos_totales // 60
+minutos = minutos_totales % 60
+
+print("Tiempo:", horas, "horas y", minutos, "minutos")
+
+Salida:
+Tiempo: 2 horas y 10 minutos
+
+Lógica: Se divide en horas y se obtiene el residuo en minutos.
+
+13. Porcentaje de misiones
+total_misiones = 50
+completadas = 25
+
+porcentaje = (completadas / total_misiones) * 100
+print("Misiones completadas:", porcentaje, "%")
+
+Salida:
+Misiones completadas: 50.0 %
+
+Lógica: Se calcula el porcentaje completado.
+
+14. Costo total de objetos
+obj1 = 100
+obj2 = 200
+obj3 = 50
+
+total = obj1 + obj2 + obj3
+print("Costo total:", total)
+
+Salida:
+Costo total: 350
+
+Lógica: Se suman los costos.
+
+15. Tiempo promedio de partidas
+partida1 = 30
+partida2 = 45
+partida3 = 60
+
+promedio = (partida1 + partida2 + partida3) / 3
+print("Tiempo promedio:", promedio)
+
+Salida:
+Tiempo promedio: 45.0
+
+Lógica: Se calcula el promedio de tiempos.
+
+16. Tiempo promedio de partidas
+partida1 = 30
+partida2 = 45
+partida3 = 60
+
+promedio = (partida1 + partida2 + partida3) / 3
+print("Tiempo promedio:", promedio)
+
+Salida:
+Tiempo promedio: 45.0
