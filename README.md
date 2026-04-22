@@ -28,20 +28,69 @@ end → define el final de la línea
 Uso de caracteres especiales como \n para saltos de línea
 Multiplicación de cadenas para repetir patrones
 
+Laboratorio 1 - Trabajando con la funcion print()
 
-Laboratorio 1: Trabajando con la función print()
-Código
+Código:
 print("¡Hola, Mundo!")
 print("Valentina")
 
-Explicación:
-
-Se utilizó la función print() para mostrar mensajes en pantalla.
-También se identificaron errores comunes al modificar la sintaxis.
-
-Ejemplo de salida:
+Salida:
 ¡Hola, Mundo!
 Valentina
+
+Experimentos:
+1. Eliminar las comillas
+print(¡Hola, Mundo!)
+
+Resultado:
+SyntaxError
+
+Explicación:
+Python necesita comillas para reconocer texto.
+Sin ellas, intenta interpretar el contenido como código y genera un error de sintaxis.
+
+2. Eliminar los paréntesis
+print "¡Hola, Mundo!"
+
+Resultado:
+SyntaxError
+
+Explicación:
+En Python 3, print es una función y siempre requiere paréntesis.
+
+3. Usar comillas simples
+print('¡Hola, Mundo!')
+print('Valentina')
+
+Resultado:
+¡Hola, Mundo!
+Valentina
+
+Explicación:
+Funciona igual que con comillas dobles.
+
+4. Múltiples print() en una línea
+print("Hola"); print("Mundo")
+
+Resultado:
+Hola
+Mundo
+
+5. Usar un solo print() con salto de línea
+print("¡Hola, Mundo!\nValentina")
+
+Resultado:
+¡Hola, Mundo!
+Valentina
+
+6. Intentar cambiar mayúsculas
+Print("Hola")
+
+Resultado:
+NameError
+
+Explicación:
+Python distingue mayúsculas y minúsculas (print ≠ Print).
 
 Laboratorio 2: La función print() y sus argumentos
 
@@ -59,37 +108,53 @@ end="..." → evita salto de línea
 Ejemplo de salida:
 Programming***Essentials***in...Python
 
-Laboratorio 3: Dando formato a la salida
+Laboratorio 3 - Dando formato a la salida
 
 Código:
 
-print("    *    "*2)
-print("   * *   "*2)
-print("  *   *  "*2)
-print(" *     * "*2)
-print("***   ***"*2)
-print("  *   *  "*2)
-print("  *   *  "*2)
-print("  *****  "*2)
+print(
+"        *            *\n"
+"       * *          * *\n"
+"      *   *        *   *\n"
+"     *     *      *     *\n"
+"    *       *    *       *\n"
+"   *         *  *         *\n"
+"  *           **           *\n"
+" *****     *****     *****     *****\n"
+"     *     *             *     *\n"
+"     *     *             *     *\n"
+"     *     *             *     *\n"
+"     *     *             *     *\n"
+"     *****               *****"
+)
 
 Explicación:
 
 Se trabajó con:
-
 Formato visual en consola
 Uso de multiplicación de cadenas (*)
 Organización del texto para generar figuras
 
-Ejemplo de salida:
+Salida:
+        *            *
+       * *          * *
+      *   *        *   *
+     *     *      *     *
+    *       *    *       *
+   *         *  *         *
+  *           **           *
+ *****     *****     *****     *****
+     *     *             *     *
+     *     *             *     *
+     *     *             *     *
+     *     *             *     *
+     *****               ***** 
 
-    *        *    
-   * *      * *   
-  *   *    *   *  
- *     *  *     * 
-***   ******   ***
-  *   *    *   *  
-  *   *    *   *  
-  *****    *****  
+Lógica:
+Se usa \n para saltos de línea en lugar de múltiples print().
+Se agregan espacios para mantener la simetría de la figura.
+Se duplica la figura colocando otra al lado.
+Se aumenta el tamaño manteniendo proporciones.
 
 Sección 2 - Literales de python - Cadenas
 
