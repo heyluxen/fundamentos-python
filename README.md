@@ -486,7 +486,7 @@ Finalmente sumas y restas (+, -)
 
 Python evalúa la expresión y guarda el resultado en la variable y.
 
-Laboratorio 3 - Ejercicios
+Laboratorio 3 - Ejercicios de algoritmos
 
 Descripción:
 En este laboratorio se desarrollan 15 ejercicios aplicando operadores matemáticos en Python dentro de un contexto de videojuego (gameplay).
@@ -695,3 +695,42 @@ print("Tiempo promedio:", promedio)
 
 Salida:
 Tiempo promedio: 45.0
+
+Laboratorio 4 - Variables 
+
+Descripción:
+En este laboratorio se practica el uso de variables en Python mediante una historia sencilla donde se almacenan y manipulan datos numéricos.
+
+Se utilizan variables para representar la cantidad de manzanas que tienen diferentes personas y luego se realizan operaciones con esos valores.
+
+Lógica utilizada:
+
+Se crean tres variables:
+john
+mary
+adam
+
+Se asignan valores según la historia:
+
+John → 3 manzanas
+Mary → 5 manzanas
+Adam → 6 manzanas
+
+Se imprimen los valores en una sola línea.
+Se crea una nueva variable total_apples que almacena la suma.
+Se imprime el total de manzanas.
+
+Código:
+john = 3
+mary = 5
+adam = 6
+
+print(john, mary, adam)
+
+total_apples = john + mary + adam
+
+print("Número total de manzanas:", total_apples)
+
+Salida:
+3 5 6
+Número total de manzanas: 14
